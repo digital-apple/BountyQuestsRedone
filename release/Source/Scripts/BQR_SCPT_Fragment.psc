@@ -38,9 +38,9 @@ FUNCTION Fragment_1()
 SetObjectiveCompleted(10)
 
 IF ( Alias_Steward.GetReference() )
-	SetObjectiveDisplayed(20)
+    SetObjectiveDisplayed(20)
 ELSE
-	SetObjectiveDisplayed(30)
+    SetObjectiveDisplayed(30)
 ENDIF
 ;END CODE
 ENDFUNCTION
