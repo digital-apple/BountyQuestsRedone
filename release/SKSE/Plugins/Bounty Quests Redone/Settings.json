@@ -1,0 +1,21 @@
+{
+	"Settings" :
+	[
+		{
+			"StartEveryQuestOnNewGame" : "False",
+			"ConcurrentQuestLimit" : "0",
+			"DisableVanillaBountyQuests" : "True",
+			"Patches" :
+			[
+				{
+					"Actor" : { "FormID" : "0x18281", "ModName" : "Dragonborn.esm" },
+					"Faction" : { "FormID" : "0x50922", "ModName" : "Skyrim.esm" }
+				},
+				{
+					"Actor" : { "FormID" : "0x1827F", "ModName" : "Dragonborn.esm" },
+					"Faction" : { "FormID" : "0x50920", "ModName" : "Skyrim.esm" }
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,491 @@
+{
+	"Quests" : 
+	[
+		{
+			"Name" : "Cragslane Cavern",	
+			"Location" : { "FormID" : "0x19159", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Lost Knife Hideout",	
+			"Location" : { "FormID" : "0x19267", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Stony Creek Cave",	
+			"Location" : { "FormID" : "0x80F28", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Traitor's Post",	
+			"Location" : { "FormID" : "0xC2EE7", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Uttering Hills Cave",	
+			"Location" : { "FormID" : "0x192C0", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Broken Limb Camp",	
+			"Location" : { "FormID" : "0xECF88", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Cradlecrush Rock",	
+			"Location" : { "FormID" : "0x19158", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Steamcrag Camp",	
+			"Location" : { "FormID" : "0x1916D", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Ansilvund",	
+			"Location" : { "FormID" : "0x1BDFD", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Cragwallow Slope",	
+			"Location" : { "FormID" : "0x1915A", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Hillgrund's Tomb",	
+			"Location" : { "FormID" : "0x19196", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Morvunskar",	
+			"Location" : { "FormID" : "0x1927D", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Bonestrewn Crest",	
+			"Location" : { "FormID" : "0x1916B", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},		
+		{
+			"Name" : "Bannermist Tower",	
+			"Location" : { "FormID" : "0x47825", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Bilegulch Mine",	
+			"Location" : { "FormID" : "0x19269", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Cracked Tusk Keep",	
+			"Location" : { "FormID" : "0x1918D", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Embershard Mine",	
+			"Location" : { "FormID" : "0xB712C", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Knifepoint Ridge",	
+			"Location" : { "FormID" : "0x8E1B7", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Pinewatch",	
+			"Location" : { "FormID" : "0x1928A", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Brittleshin Pass",	
+			"Location" : { "FormID" : "0x19197", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Southfringe Sanctum",	
+			"Location" : { "FormID" : "0x1914C", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Sunderstone Gorge",	
+			"Location" : { "FormID" : "0x61AE3", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Ancient's Ascent",	
+			"Location" : { "FormID" : "0x19166", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},
+		{
+			"Name" : "Broken Oar Grotto",	
+			"Location" : { "FormID" : "0x19153", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Dainty Sload",	
+			"Location" : { "FormID" : "0x7B91A", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Ironback Hideout",	
+			"Location" : { "FormID" : "0xEF546", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Orphan's Tear",	
+			"Location" : { "FormID" : "0x192A5", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Rimerock Burrow",	
+			"Location" : { "FormID" : "0x19296", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Widow's Watch Ruins",	
+			"Location" : { "FormID" : "0xEF0A9", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Orotheim",	
+			"Location" : { "FormID" : "0x19286", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Robber's Gorge",	
+			"Location" : { "FormID" : "0x1929B", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Talking Stone Camp",	
+			"Location" : { "FormID" : "0x192BA", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Eldersblood Peak",	
+			"Location" : { "FormID" : "0x19164", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},
+		{
+			"Name" : "Skyborn Altar",	
+			"Location" : { "FormID" : "0x19165", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},	
+{
+			"Name" : "Blizzard Rest",	
+			"Location" : { "FormID" : "0x18EEE", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Red Road Pass",	
+			"Location" : { "FormID" : "0x19294", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Stonehill Bluff",	
+			"Location" : { "FormID" : "0x192B7", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Tumble Arch Pass",	
+			"Location" : { "FormID" : "0x192BE", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Shearpoint",	
+			"Location" : { "FormID" : "0x1916C", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},			
+		{
+			"Name" : "Four Skull Lookout",	
+			"Location" : { "FormID" : "0xB23AC", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Bleakwind Bluff",	
+			"Location" : { "FormID" : "0x18EEC", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Blind Cliff Cave",	
+			"Location" : { "FormID" : "0x18EED", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Broken Tower Redoubt",	
+			"Location" : { "FormID" : "0x1914F", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Bruca's Leap Redoubt",	
+			"Location" : { "FormID" : "0x19151", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Cradle Stone Tower",	
+			"Location" : { "FormID" : "0xB239F", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Dead Crone Rock",	
+			"Location" : { "FormID" : "0x19160", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Deepwood Redoubt",	
+			"Location" : { "FormID" : "0x19162", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Dragon Bridge Overlook",	
+			"Location" : { "FormID" : "0xB2395", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Druadach Redoubt",	
+			"Location" : { "FormID" : "0x1916F", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Hag Rock Redoubt",	
+			"Location" : { "FormID" : "0x19190", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Lost Valley Redoubt",	
+			"Location" : { "FormID" : "0x19268", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Red Eagle Redoubt",	
+			"Location" : { "FormID" : "0x19170", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Serpent's Bluff Redoubt",	
+			"Location" : { "FormID" : "0x192C4", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Forsworn"	
+		},
+		{
+			"Name" : "Harmugstahl",	
+			"Location" : { "FormID" : "0x19194", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Dragontooth Crater",	
+			"Location" : { "FormID" : "0x19163", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},		
+		{
+			"Name" : "Broken Helm Hollow",	
+			"Location" : { "FormID" : "0x1914E", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Bthalft",	
+			"Location" : { "FormID" : "0xD566F", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Faldar's Tooth",	
+			"Location" : { "FormID" : "0x19175", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Nilheim",	
+			"Location" : { "FormID" : "0x19284", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Rift Watchtower",	
+			"Location" : { "FormID" : "0xD5665", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Treva's Watch",	
+			"Location" : { "FormID" : "0x192BD", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Boulderfall Cave",	
+			"Location" : { "FormID" : "0xF52DA", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Autumnwatch Tower",	
+			"Location" : { "FormID" : "0x19168", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},
+		{
+			"Name" : "Lost Tongue Overlook",	
+			"Location" : { "FormID" : "0x1916A", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},
+		{
+			"Name" : "Northwind Summit",	
+			"Location" : { "FormID" : "0x19169", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		},		
+		{
+			"Name" : "Halted Stream Camp",	
+			"Location" : { "FormID" : "0x19193", "ModName" : "Skyrim.esm" },		
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Bandit"	
+		},		
+		{
+			"Name" : "Redoran's Retreat",	
+			"Location" : { "FormID" : "0x19295", "ModName" : "Skyrim.esm" },		
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Silent Moons Camp",	
+			"Location" : { "FormID" : "0x192A9", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Swindler's Den",	
+			"Location" : { "FormID" : "0x18EE2", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},		
+		{
+			"Name" : "Valtheim Towers",	
+			"Location" : { "FormID" : "0x192C1", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Bandit"	
+		},		
+		{
+			"Name" : "White River Watch",	
+			"Location" : { "FormID" : "0x192C5", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Bleakwind Basin",	
+			"Location" : { "FormID" : "0x18EEB", "ModName" : "Skyrim.esm" },		
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Giant"	
+		},		
+		{
+			"Name" : "Guldun Rock",	
+			"Location" : { "FormID" : "0x1918E", "ModName" : "Skyrim.esm" },		
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Giant"	
+		},				
+		{
+			"Name" : "Secunda's Kiss",	
+			"Location" : { "FormID" : "0x1929A", "ModName" : "Skyrim.esm" },		
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Sleeping Tree Camp",	
+			"Location" : { "FormID" : "0x192AD", "ModName" : "Skyrim.esm" },		
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },	
+			"Type" : "Giant"	
+		},
+		{
+			"Name" : "Fort Fellhammer",	
+			"Location" : { "FormID" : "0x1917F", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Snowpoint Beacon",	
+			"Location" : { "FormID" : "0xC2EF8", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Wreck of the Pride of Tel Vos",	
+			"Location" : { "FormID" : "0x192A3", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Wreck of the Winter War",	
+			"Location" : { "FormID" : "0x192A4", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Yngvild",	
+			"Location" : { "FormID" : "0x192CA", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Mage"	
+		},
+		{
+			"Name" : "Mount Anthor",	
+			"Location" : { "FormID" : "0x1927F", "ModName" : "Skyrim.esm" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Dragon"	
+		}		
+	]	
+}

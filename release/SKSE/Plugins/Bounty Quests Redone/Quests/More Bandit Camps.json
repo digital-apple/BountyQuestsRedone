@@ -1,0 +1,191 @@
+{
+	"Quests" : 
+	[
+		{
+			"Name" : "Camp Vallus",	
+			"Location" : { "FormID" : "0x1CEA3", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Glacier Camp",	
+			"Location" : { "FormID" : "0x1CEBC", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Lockwind Camp",	
+			"Location" : { "FormID" : "0x1CEC1", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676A", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Wakefield Camp",	
+			"Location" : { "FormID" : "0x1D9B8", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Shelfrock Camp",	
+			"Location" : { "FormID" : "0x1DF24", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Dead Drop",	
+			"Location" : { "FormID" : "0x1BD9D", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Frostcliff",	
+			"Location" : { "FormID" : "0x1BDBE", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Coastwatch Camp",	
+			"Location" : { "FormID" : "0x1CEA6", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16770", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Hrjoldarr",	
+			"Location" : { "FormID" : "0x1BDC0", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Marshside Camp",	
+			"Location" : { "FormID" : "0x1D426", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Marshwalk Camp",	
+			"Location" : { "FormID" : "0x1D431", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676E", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Arcius",	
+			"Location" : { "FormID" : "0x19BF5", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Sweetwater Camp",	
+			"Location" : { "FormID" : "0x1DF3C", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Cloverhedge",	
+			"Location" : { "FormID" : "0x1B223", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Mossfall",	
+			"Location" : { "FormID" : "0x1C35E", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Redfox",	
+			"Location" : { "FormID" : "0x1C922", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Snowfall",	
+			"Location" : { "FormID" : "0x1CE91", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Deepwater Scout Camp",	
+			"Location" : { "FormID" : "0x154FE", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Percius",	
+			"Location" : { "FormID" : "0x16FF5", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Birchwood Camp",	
+			"Location" : { "FormID" : "0x180A9", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Riverside Camp",	
+			"Location" : { "FormID" : "0x1D44A", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Egours Camp",	
+			"Location" : { "FormID" : "0x1CEA8", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Jolfingand",	
+			"Location" : { "FormID" : "0x1BDDF", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Outcast Camp",	
+			"Location" : { "FormID" : "0x1D434", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Yellowhedge Camp",	
+			"Location" : { "FormID" : "0x1E4B4", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Whitewind Camp",	
+			"Location" : { "FormID" : "0x5F25A", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Steadwatch",	
+			"Location" : { "FormID" : "0x17AE8", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x16772", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Bronin",	
+			"Location" : { "FormID" : "0x1A193", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Camp Overwatch",	
+			"Location" : { "FormID" : "0x1C363", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Goldmill Overwatch",	
+			"Location" : { "FormID" : "0x1DF20", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		},
+		{
+			"Name" : "Shipwreck Camp",	
+			"Location" : { "FormID" : "0x1E4C6", "ModName" : "MoreBanditCamps.esp" },	
+			"Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+			"Type" : "Bandit"	
+		}
+	]	
+}
