@@ -1,0 +1,34 @@
+{
+    [
+        {
+            "Name" : "Pinefall Hideout",
+            "Location" : { "FormID" : "0x19EAD", "ModName" : "Pinefall Hideout.esp" },
+            "Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Smuggler's Sanctuary",
+            "Location" : { "FormID" : "0x56FB3", "ModName" : "Smugglers Sanctuary.esp" },
+            "Hold" : { "FormID" : "0x1676F", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Dead-Drop Tower",
+            "Location" : { "FormID" : "0xAA96", "ModName" : "Dead-Drop Tower.esp" },
+            "Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Broken-Hilt Lookout",
+            "Location" : { "FormID" : "0xAA48", "ModName" : "Broken Hilt Lookout.esp" },
+            "Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Banded-Branch Gorge",
+            "Location" : { "FormID" : "0xAA1A", "ModName" : "Banded-Branch Gorge.esp" },
+            "Hold" : { "FormID" : "0x1676C", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        }
+    ]
+}

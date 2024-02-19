@@ -1,0 +1,34 @@
+{
+    [
+        {
+            "Name" : "Hellivuud",
+            "Location" : { "FormID" : "0x56F46", "ModName" : "Simple Bandit Camps.esp" },
+            "Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Bleakcoast Lookout",
+            "Location" : { "FormID" : "0xFB1F", "ModName" : "Simple Bandit Camps.esp" },
+            "Hold" : { "FormID" : "0x1676B", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Brittle-Brine Hideout",
+            "Location" : { "FormID" : "0x38407", "ModName" : "Simple Bandit Camps.esp" },
+            "Hold" : { "FormID" : "0x1676D", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Karth River Refuge",
+            "Location" : { "FormID" : "0xAD5B6", "ModName" : "Simple Bandit Camps.esp" },
+            "Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        },
+        {
+            "Name" : "Hollow-Horn Cave",
+            "Location" : { "FormID" : "0x1CF3FD", "ModName" : "Simple Bandit Camps.esp" },
+            "Hold" : { "FormID" : "0x16769", "ModName" : "Skyrim.esm" },
+            "Type" : "Bandit"
+        }
+    ]
+}

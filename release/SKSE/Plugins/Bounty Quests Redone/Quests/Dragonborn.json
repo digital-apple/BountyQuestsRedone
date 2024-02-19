@@ -1,71 +1,71 @@
 {
-	"Quests" : 
-	[
-		{
-			"Name" : "Bloodskal Barrow",	
-			"Location" : { "FormID" : "0x3A07F", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Reaver"	
-		},
-		{
-			"Name" : "Brodir Grove",	
-			"Location" : { "FormID" : "0x1429C", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Reaver"	
-		},
-		{
-			"Name" : "Haknir's Shoal",	
-			"Location" : { "FormID" : "0x142C2", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Reaver"	
-		},
-		{
-			"Name" : "Wreck of the Strident Squall",	
-			"Location" : { "FormID" : "0x142C9", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Reaver"	
-		},
-		{
-			"Name" : "Benkongerike",	
-			"Location" : { "FormID" : "0x14298", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Riekling"	
-		},
-		{
-			"Name" : "Bristleback Cave",	
-			"Location" : { "FormID" : "0x32892", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Riekling"	
-		},
-		{
-			"Name" : "Broken Tusk Mine",	
-			"Location" : { "FormID" : "0x142C1", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Riekling"	
-		},
-		{
-			"Name" : "Frossel",	
-			"Location" : { "FormID" : "0x142A6", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Riekling"	
-		},
-		{
-			"Name" : "Glacial Cave",	
-			"Location" : { "FormID" : "0x142C4", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Riekling"	
-		},
-		{
-			"Name" : "Moesring Pass",	
-			"Location" : { "FormID" : "0x142DA", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Riekling"	
-		},
-		{
-			"Name" : "Saering's Watch",	
-			"Location" : { "FormID" : "0x19D2B", "ModName" : "Dragonborn.esm" },	
-			"Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
-			"Type" : "Dragon"	
-		}
-	]
+    "Quests" : 
+    [
+        {
+            "Name" : "Bloodskal Barrow",
+            "Location" : { "FormID" : "0x3A07F", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Reaver"
+        },
+        {
+            "Name" : "Brodir Grove",
+            "Location" : { "FormID" : "0x1429C", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Reaver"
+        },
+        {
+            "Name" : "Haknir's Shoal",
+            "Location" : { "FormID" : "0x142C2", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Reaver"
+        },
+        {
+            "Name" : "Wreck of the Strident Squall",
+            "Location" : { "FormID" : "0x142C9", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Reaver"
+        },
+        {
+            "Name" : "Benkongerike",
+            "Location" : { "FormID" : "0x14298", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Riekling"
+        },
+        {
+            "Name" : "Bristleback Cave",
+            "Location" : { "FormID" : "0x32892", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Riekling"
+        },
+        {
+            "Name" : "Broken Tusk Mine",
+            "Location" : { "FormID" : "0x142C1", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Riekling"
+        },
+        {
+            "Name" : "Frossel",
+            "Location" : { "FormID" : "0x142A6", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Riekling"
+        },
+        {
+            "Name" : "Glacial Cave",
+            "Location" : { "FormID" : "0x142C4", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Riekling"
+        },
+        {
+            "Name" : "Moesring Pass",
+            "Location" : { "FormID" : "0x142DA", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Riekling"
+        },
+        {
+            "Name" : "Saering's Watch",
+            "Location" : { "FormID" : "0x19D2B", "ModName" : "Dragonborn.esm" },
+            "Hold" : { "FormID" : "0x16E2A", "ModName" : "Dragonborn.esm" },
+            "Type" : "Dragon"
+        }
+    ]
 }

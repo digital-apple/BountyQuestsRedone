@@ -1,48 +1,48 @@
 {
-	"Rewards" :
-	[
-		{
-			"Reward" : { "FormID" : "0xF", "ModName" : "Skyrim.esm" },
-			"Quantity" : "20", "Base" : "150", "Maximum" : "2500"
-		}
-	],
-	"Multipliers" :
-	[
-		{ 
-			"Type" : "Bandit", "Multiplier" : "1.0"
-		},
-		{ 
-			"Type" : "Creature", "Multiplier" : "0.5"
-		},
-		{ 
-			"Type" : "Dragon", "Multiplier" : "4.0"
-		},
-		{ 
-			"Type" : "Draugr", "Multiplier" : "1.2"
-		},
-		{ 
-			"Type" : "Dwemer", "Multiplier" : "2.0"
-		},
-		{ 
-			"Type" : "Falmer", "Multiplier" : "1.4"
-		},
-		{ 
-			"Type" : "Forsworn", "Multiplier" : "1.3"
-		},
-		{ 
-			"Type" : "Giant", "Multiplier" : "3.0"
-		},
-		{ 
-			"Type" : "Mage", "Multiplier" : "2.5"
-		},
-		{ 
-			"Type" : "Reaver", "Multiplier" : "1.0"
-		},
-		{ 
-			"Type" : "Riekling", "Multiplier" : "1.1"
-		},
-		{ 
-			"Type" : "Vampire", "Multiplier" : "3.5"
-		}
-	]
+    "Rewards" :
+    [
+        {
+            "Reward" : { "FormID" : "0xF", "ModName" : "Skyrim.esm" },
+            "Quantity" : "20", "Base" : "150", "Maximum" : "2500"
+        }
+    ],
+    "Multipliers" :
+    [
+        { 
+            "Type" : "Bandit", "Multiplier" : "1.0"
+        },
+        { 
+            "Type" : "Creature", "Multiplier" : "0.5"
+        },
+        { 
+            "Type" : "Dragon", "Multiplier" : "4.0"
+        },
+        { 
+            "Type" : "Draugr", "Multiplier" : "1.2"
+        },
+        { 
+            "Type" : "Dwemer", "Multiplier" : "2.0"
+        },
+        { 
+            "Type" : "Falmer", "Multiplier" : "1.4"
+        },
+        { 
+            "Type" : "Forsworn", "Multiplier" : "1.3"
+        },
+        { 
+            "Type" : "Giant", "Multiplier" : "3.0"
+        },
+        { 
+            "Type" : "Mage", "Multiplier" : "2.5"
+        },
+        { 
+            "Type" : "Reaver", "Multiplier" : "1.0"
+        },
+        { 
+            "Type" : "Riekling", "Multiplier" : "1.1"
+        },
+        { 
+            "Type" : "Vampire", "Multiplier" : "3.5"
+        }
+    ]
 }
