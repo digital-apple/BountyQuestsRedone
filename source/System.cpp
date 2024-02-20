@@ -470,8 +470,11 @@ void System::RewardPlayer(const RE::BGSLocation* a_location, std::uint32_t a_lev
 
             for (const auto& reward : rewards) {
                 auto amount = std::ceilf(reward.base + ((reward.quantity * a_level) * multiplier));
-                amount > reward.maximum ? amount = reward.maximum : amount;
 
+                if (reward.maximum > 0) {
+                    amount > reward.maximum ? amount = reward.maximum : amount;
+                }
+                
                 const auto sAddItemtoInventory = RE::GameSettingCollection::GetSingleton()->GetSetting("sAddItemtoInventory");
 
                 player->AddObjectToContainer(reward.form->As<RE::TESBoundObject>(), nullptr, static_cast<std::uint32_t>(amount), nullptr);
