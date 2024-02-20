@@ -469,7 +469,7 @@ void System::RewardPlayer(const RE::BGSLocation* a_location, std::uint32_t a_lev
             const auto multiplier = multipliers[quest.type];
 
             for (const auto& reward : rewards) {
-                auto amount = std::ceilf((reward.base + reward.quantity * a_level) * multiplier);
+                auto amount = std::ceilf(reward.base + ((reward.quantity * a_level) * multiplier));
                 amount > reward.maximum ? amount = reward.maximum : amount;
 
                 const auto sAddItemtoInventory = RE::GameSettingCollection::GetSingleton()->GetSetting("sAddItemtoInventory");
