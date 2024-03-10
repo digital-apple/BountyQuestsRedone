@@ -26,6 +26,7 @@ public:
         float quantity;
         float base;
         float maximum;
+        std::vector<Type> types;
     };
 
     struct Quest

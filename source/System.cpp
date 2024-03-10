@@ -273,33 +273,33 @@ void System::ParseQuests()
 
             try {
                 json config = json::parse(path);
-                const json& elements = config["Quests"];
+                const json& _quests = config["Quests"];
 
-                logs::info("System :: Parsing: '{}' quests from file: '{}'", elements.size(), entry.path().filename().string());
+                logs::info("System :: Parsing: '{}' quests from file: '{}'", _quests.size(), entry.path().filename().string());
 
-                for (const auto& element : elements.array_range()) {
-                    const auto location = data->LookupForm<RE::BGSLocation>(element["Location"]["FormID"].as<RE::FormID>(), element["Location"]["ModName"].as<std::string_view>());
-                    const auto hold = data->LookupForm<RE::BGSLocation>(element["Hold"]["FormID"].as<RE::FormID>(), element["Hold"]["ModName"].as<std::string_view>());
-                    const auto type = StringToType(element["Type"].as<std::string_view>());
+                for (const auto& _quest : _quests.array_range()) {
+                    const auto location = data->LookupForm<RE::BGSLocation>(_quest["Location"]["FormID"].as<RE::FormID>(), _quest["Location"]["ModName"].as<std::string_view>());
+                    const auto hold = data->LookupForm<RE::BGSLocation>(_quest["Hold"]["FormID"].as<RE::FormID>(), _quest["Hold"]["ModName"].as<std::string_view>());
+                    const auto type = StringToType(_quest["Type"].as<std::string_view>());
 
                     if (!location) {
-                        logs::warn("System :: Failed to parse location: '0x{:X}' from file: '{}'", element["Location"]["FormID"].as<RE::FormID>(), element["Location"]["ModName"].as<std::string_view>());
+                        logs::warn("System :: Failed to parse location: '0x{:X}' from file: '{}'", _quest["Location"]["FormID"].as<RE::FormID>(), _quest["Location"]["ModName"].as<std::string_view>());
                         continue;
                     }
 
                     if (!hold) {
-                        logs::warn("System :: Failed to parse hold: '0x{:X}' | '{}'!", element["Hold"]["FormID"].as<RE::FormID>(), element["Hold"]["ModName"].as<std::string_view>());
+                        logs::warn("System :: Failed to parse hold: '0x{:X}' | '{}'!", _quest["Hold"]["FormID"].as<RE::FormID>(), _quest["Hold"]["ModName"].as<std::string_view>());
                         continue;
                     }
 
                     if (type == Type::kNone) {
-                        logs::error("System :: Failed to parse type: '{}'! Make sure the type name starts with a capital letter. Example: \"Bandit\"", element["Type"].as<std::string_view>());
+                        logs::error("System :: Failed to parse type: '{}'! Make sure the type name starts with a capital letter. Example: \"Bandit\"", _quest["Type"].as<std::string_view>());
                         continue;
                     }
 
                     const Quest instance{ location, hold, type };
 
-                    logs::info("System :: Parsed location: '{}' | '0x{:X}' from file: '{}'", location->GetName(), element["Location"]["FormID"].as<RE::FormID>(), element["Location"]["ModName"].as<std::string_view>());
+                    logs::info("System :: Parsed location: '{}' | '0x{:X}' from file: '{}'", location->GetName(), _quest["Location"]["FormID"].as<RE::FormID>(), _quest["Location"]["ModName"].as<std::string_view>());
 
                     quests.push_back(instance);
                 }
@@ -322,32 +322,44 @@ void System::ParseRewards()
 
     try {
         json config = json::parse(path);
-        const json& elements1 = config["Rewards"];
+        const json& _rewards = config["Rewards"];
 
-        for (const auto& element : elements1.array_range()) {
-            const auto form = data->LookupForm(element["Reward"]["FormID"].as<RE::FormID>(), element["Reward"]["ModName"].as<std::string_view>());
-            const auto quantity = element["Quantity"].as<float>();
-            const auto base = element["Base"].as<float>();
-            const auto maximum = element["Maximum"].as<float>();
+        for (const auto& _reward : _rewards.array_range()) {
+            const auto form = data->LookupForm(_reward["Reward"]["FormID"].as<RE::FormID>(), _reward["Reward"]["ModName"].as<std::string_view>());
+            const auto quantity = _reward["Quantity"].as<float>();
+            const auto base = _reward["Base"].as<float>();
+            const auto maximum = _reward["Maximum"].as<float>();
 
             if (!form) {
-                logs::warn("System :: Failed to parse form: '0x{:X}' from file: '{}'", element["Reward"]["FormID"].as<RE::FormID>(), element["Reward"]["ModName"].as<std::string_view>());
+                logs::warn("System :: Failed to parse form: '0x{:X}' from file: '{}'", _reward["Reward"]["FormID"].as<RE::FormID>(), _reward["Reward"]["ModName"].as<std::string_view>());
                 continue;
             }
 
-            const Reward instance{ form, quantity, base, maximum };
+            const json& _types = _reward["Types"];
+
+            std::vector<Type> temporary;
+
+            for (const auto& _type : _types.array_range()) {
+                const auto type = StringToType(_type.as<std::string_view>());
+
+                if (type != Type::kNone) {
+                    temporary.push_back(type);
+                }
+            }
+
+            const Reward instance{ form, quantity, base, maximum, temporary};
 
             rewards.push_back(instance);
         }
 
-        const json& elements2 = config["Multipliers"];
+        const json& _multipliers = config["Multipliers"];
 
-        for (const auto& element : elements2.array_range()) {
-            const auto type = StringToType(element["Type"].as<std::string_view>());
-            const auto multiplier = element["Multiplier"].as<float>();
+        for (const auto& _multiplier : _multipliers.array_range()) {
+            const auto type = StringToType(_multiplier["Type"].as<std::string_view>());
+            const auto multiplier = _multiplier["Multiplier"].as<float>();
 
             if (type == Type::kNone) {
-                logs::error("System :: Failed to parse type: '{}'! Make sure the type name starts with a capital letter. Example: \"Bandit\"", element["Type"].as<std::string_view>());
+                logs::error("System :: Failed to parse type: '{}'! Make sure the type name starts with a capital letter. Example: \"Bandit\"", _multiplier["Type"].as<std::string_view>());
                 continue;
             }
 
@@ -370,12 +382,12 @@ void System::ParseSettings(SKSE::MessagingInterface::Message* a_message)
 
     try {
         json config = json::parse(path);
-        const json& settings = config["Settings"];
+        const json& _settings = config["Settings"];
 
-        for (const auto& setting : settings.array_range()) {
-            const auto StartEveryQuestOnNewGame = setting["StartEveryQuestOnNewGame"].as<std::string_view>();
-            const auto concurrentQuestLimit = setting["ConcurrentQuestLimit"].as<float>();
-            const auto disableVanillaBountyQuests = setting["DisableVanillaBountyQuests"].as<std::string_view>();
+        for (const auto& _setting : _settings.array_range()) {
+            const auto StartEveryQuestOnNewGame = _setting["StartEveryQuestOnNewGame"].as<std::string_view>();
+            const auto concurrentQuestLimit = _setting["ConcurrentQuestLimit"].as<float>();
+            const auto disableVanillaBountyQuests = _setting["DisableVanillaBountyQuests"].as<std::string_view>();
 
             const auto limit = data->LookupForm<RE::TESGlobal>(Data::Forms::BQR_GLOB_QuestLimit, Data::Forms::FileName);
 
@@ -412,7 +424,7 @@ void System::ParseSettings(SKSE::MessagingInterface::Message* a_message)
                 }
             }
 
-            const json& patches = setting["Patches"];
+            const json& patches = _setting["Patches"];
 
             for (const auto& patch : patches.array_range()) {
                 const auto actor = data->LookupForm<RE::Actor>(patch["Actor"]["FormID"].as<RE::FormID>(), patch["Actor"]["ModName"].as<std::string_view>());
@@ -475,26 +487,30 @@ void System::RewardPlayer(const RE::BGSLocation* a_location, std::uint32_t a_lev
                 if (reward.maximum > 0) {
                     amount > reward.maximum ? amount = reward.maximum : amount;
                 }
-                
-                const auto sAddItemtoInventory = RE::GameSettingCollection::GetSingleton()->GetSetting("sAddItemtoInventory");
 
-                player->AddObjectToContainer(reward.form->As<RE::TESBoundObject>(), nullptr, static_cast<std::uint32_t>(amount), nullptr);
+                for (const auto& type : reward.types) {
+                    if (type == quest.type) {
+                        const auto sAddItemtoInventory = RE::GameSettingCollection::GetSingleton()->GetSetting("sAddItemtoInventory");
 
-                if (sAddItemtoInventory) {
-                    std::string result = fmt::format("{} {}, {}", sAddItemtoInventory->GetString(), reward.form->GetName(), amount);
-                    RE::PlaySound("ITMGoldUpSD");
-                    RE::DebugNotification(result.c_str(), nullptr, true);
-                }
+                        player->AddObjectToContainer(reward.form->As<RE::TESBoundObject>(), nullptr, static_cast<std::uint32_t>(amount), nullptr);
 
-                const auto data = RE::TESDataHandler::GetSingleton();
+                        if (sAddItemtoInventory) {
+                            std::string result = fmt::format("{} {}, {}", sAddItemtoInventory->GetString(), reward.form->GetName(), amount);
+                            RE::PlaySound("ITMGoldUpSD");
+                            RE::DebugNotification(result.c_str(), nullptr, true);
+                        }
 
-                if (data) {
-                    const auto rewardSwitch = data->LookupForm<RE::TESGlobal>(Data::Forms::BQR_GLOB_RewardSwitch, Data::Forms::FileName);
+                        const auto data = RE::TESDataHandler::GetSingleton();
 
-                    if (rewardSwitch) {
-                        rewardSwitch->value = 0;
+                        if (data) {
+                            const auto rewardSwitch = data->LookupForm<RE::TESGlobal>(Data::Forms::BQR_GLOB_RewardSwitch, Data::Forms::FileName);
+
+                            if (rewardSwitch) {
+                                rewardSwitch->value = 0;
+                            }
+                        } 
                     }
-                } 
+                }
             }
         }
     }

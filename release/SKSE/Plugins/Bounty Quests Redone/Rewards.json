@@ -4,12 +4,20 @@
         {
             "Name" : "Gold",
             "Reward" : { "FormID" : "0xF", "ModName" : "Skyrim.esm" },
-            "Quantity" : "20", "Base" : "150", "Maximum" : "2500"
+            "Quantity" : "20", "Base" : "150", "Maximum" : "2500",
+            "Types" : [ "Bandit", "Creature", "Dragon", "Draugr", "Dwemer", "Falmer", "Forsworn", "Giant", "Mage", "Reaver", "Riekling", "Vampire" ]
         },
         {
             "Name" : "Diluted Insight Potion (Regular)",
             "Reward" : { "FormID" : "0x113F15", "ModName" : "FTweaks.esp" },
-            "Quantity" : "0.5", "Base" : "0", "Maximum" : "0"
+            "Quantity" : "0.5", "Base" : "0", "Maximum" : "0",
+            "Types" : [ "Bandit", "Creature", "Draugr", "Forsworn", "Reaver", "Riekling" ]
+        },
+        {
+            "Name" : "Diluted Insight Potion (Greater)",
+            "Reward" : { "FormID" : "0x113F14", "ModName" : "FTweaks.esp" },
+            "Quantity" : "0.5", "Base" : "0", "Maximum" : "0",
+            "Types" : [ "Dragon", "Dwemer", "Falmer", "Giant", "Mage", "Vampire" ]
         }
     ],
     "Multipliers" :
