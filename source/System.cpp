@@ -332,6 +332,7 @@ void System::ParseRewards()
 
             if (!form) {
                 logs::warn("System :: Failed to parse form: '0x{:X}' from file: '{}'", element["Reward"]["FormID"].as<RE::FormID>(), element["Reward"]["ModName"].as<std::string_view>());
+                continue;
             }
 
             const Reward instance{ form, quantity, base, maximum };
