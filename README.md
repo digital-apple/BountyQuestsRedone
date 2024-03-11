@@ -20,5 +20,9 @@ xmake build
 
 [CharmedBaryon](https://github.com/CharmedBaryon) and all the people who contributed to [CommonLibSSE-NG](https://github.com/CharmedBaryon/CommonLibSSE-NG).
 
+Orrie for helping me with xedit scripts.
+
+GhoulSmasher for beta testing the plugin.
+
 ## License
 [MIT](LICENSE)

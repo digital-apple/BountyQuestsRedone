@@ -164,7 +164,7 @@ bool System::IsLocationAvailable(const RE::BGSLocation* a_location)
             }
         }
     }
-    return a_location ? true : false;
+    return a_location;
 }
 
 void System::LoadForms()
@@ -604,13 +604,15 @@ void System::StartRandomQuest(const RE::BGSLocation* a_hold, Type a_type)
         const auto placeholder = GetNextAvailablePlaceholder(true);
 
         if (placeholder) {
-            auto random = temporary.begin();
-            std::advance(random, std::rand() % temporary.size());
+            if (!temporary.empty()) {
+                auto iterator = temporary.begin();
+                std::advance(iterator, std::rand() % temporary.size());
 
-            UpdateLocationAlias(placeholder, "Location"sv, random->first, false);
-            UpdateLocationAlias(placeholder, "Hold"sv, random->second, false);
+                UpdateLocationAlias(placeholder, "Location"sv, iterator->first, false);
+                UpdateLocationAlias(placeholder, "Hold"sv, iterator->second, false);
 
-            placeholder->Start();
+                placeholder->Start();
+            }
         }
     }
 }
